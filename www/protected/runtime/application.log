@@ -1,0 +1,945 @@
+2012/02/15 22:05:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'studypoint.attachment1' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `Attachment1`.
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/15 22:07:37 [error] [php] include(ContactForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (A:\home\StudyPoint\www\framework\YiiBase.php:418)
+Stack trace:
+#0 A:\home\StudyPoint\www\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#2 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(287): SiteController->runAction()
+#4 A:\home\StudyPoint\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): SiteController->run()
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 A:\home\StudyPoint\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/contact
+in A:\home\StudyPoint\www\protected\controllers\SiteController.php (54)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/15 22:09:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('contact')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('contact')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/contact')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/contact
+HTTP_REFERER=http://studypoint/
+---
+2012/02/15 22:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('contact')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('contact')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/contact')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/contact
+HTTP_REFERER=http://studypoint/
+---
+2012/02/15 22:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('login')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/login
+---
+2012/02/15 22:57:12 [error] [php] include(LoginForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (A:\home\StudyPoint\www\framework\YiiBase.php:418)
+Stack trace:
+#0 A:\home\StudyPoint\www\protected\controllers\SiteController.php(54): spl_autoload_call()
+#1 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#2 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(287): SiteController->runAction()
+#4 A:\home\StudyPoint\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): SiteController->run()
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 A:\home\StudyPoint\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/login
+in A:\home\StudyPoint\www\protected\controllers\SiteController.php (54)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/15 23:15:07 [error] [php] get_class() expects parameter 1 to be object, string given (A:\home\StudyPoint\www\framework\web\helpers\CHtml.php:2009)
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(1203): resolveNameID()
+#1 A:\home\StudyPoint\www\framework\web\widgets\CActiveForm.php(568): activeTextField()
+#2 A:\home\StudyPoint\www\protected\views\site\login.php(21): CActiveForm->textField()
+#3 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require()
+#4 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#5 A:\home\StudyPoint\www\framework\web\CController.php(870): SiteController->renderFile()
+#6 A:\home\StudyPoint\www\framework\web\CController.php(783): SiteController->renderPartial()
+#7 A:\home\StudyPoint\www\protected\controllers\SiteController.php(72): SiteController->render()
+#8 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#9 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 A:\home\StudyPoint\www\framework\web\CController.php(287): SiteController->runAction()
+#11 A:\home\StudyPoint\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): SiteController->run()
+#13 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 A:\home\StudyPoint\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/login
+in A:\home\StudyPoint\www\protected\views\site\login.php (21)
+in A:\home\StudyPoint\www\protected\controllers\SiteController.php (72)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/15 23:33:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('register')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/register')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/register
+HTTP_REFERER=http://studypoint/index.php?r=site/login
+---
+2012/02/15 23:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('register')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/register')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/register
+HTTP_REFERER=http://studypoint/index.php?r=site/login
+---
+2012/02/15 23:37:48 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in A:\home\StudyPoint\www\framework\web\CController.php:879
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 A:\home\StudyPoint\www\protected\controllers\UserController.php(43): CController->render('login', Array)
+#2 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#7 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#8 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php
+---
+2012/02/15 23:46:23 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/15 23:49:57 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/15 23:50:29 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+---
+2012/02/15 23:52:23 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+---
+2012/02/15 23:52:24 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+---
+2012/02/15 23:52:25 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+---
+2012/02/15 23:52:26 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+---
+2012/02/15 23:52:29 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+---
+2012/02/15 23:54:17 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+---
+2012/02/15 23:57:04 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM `User` `t` WHERE `t`.`username`=:yp0 LIMIT 1.
+in A:\home\StudyPoint\www\protected\components\UserIdentity.php (20)
+in A:\home\StudyPoint\www\protected\models\LoginForm.php (52)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (39)
+2012/02/15 23:57:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM `User` `t` WHERE `t`.`username`=:yp0 LIMIT 1' in A:\home\StudyPoint\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->query(Object(CDbCriteria))
+#3 A:\home\StudyPoint\www\protected\components\UserIdentity.php(20): CActiveRecord->findByAttributes(Array)
+#4 A:\home\StudyPoint\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#5 A:\home\StudyPoint\www\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#6 A:\home\StudyPoint\www\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 A:\home\StudyPoint\www\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#8 A:\home\StudyPoint\www\protected\controllers\UserController.php(39): CModel->validate()
+#9 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#10 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#14 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#15 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/15 23:59:49 [error] [exception.CException] exception 'CException' with message 'Вы уже зарегистрированны!' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 00:00:07 [error] [exception.CException] exception 'CException' with message 'OLOLO' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 00:00:08 [error] [exception.CException] exception 'CException' with message 'OLOLO' in A:\home\StudyPoint\www\protected\controllers\UserController.php:70
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#5 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#6 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 00:01:21 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in A:\home\StudyPoint\www\framework\web\CController.php:879
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#1 A:\home\StudyPoint\www\protected\controllers\UserController.php(70): CController->render('index')
+#2 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#7 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#8 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 00:01:32 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "site/index".' in A:\home\StudyPoint\www\framework\web\CController.php:879
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('site/index', NULL, true)
+#1 A:\home\StudyPoint\www\protected\controllers\UserController.php(70): CController->render('site/index')
+#2 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#7 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#8 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 00:09:36 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "register".' in A:\home\StudyPoint\www\framework\web\CController.php:879
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('register', Array, true)
+#1 A:\home\StudyPoint\www\protected\controllers\UserController.php(116): CController->render('register', Array)
+#2 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#7 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#8 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php
+---
+2012/02/16 00:10:32 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "register".' in A:\home\StudyPoint\www\framework\web\CController.php:879
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('register', Array, true)
+#1 A:\home\StudyPoint\www\protected\controllers\UserController.php(116): CController->render('register', Array)
+#2 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#7 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#8 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php
+---
+2012/02/16 00:12:05 [error] [exception.CException] exception 'CException' with message 'Property "User.rememberMe" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('rememberMe')
+#1 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('rememberMe')
+#2 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(1347): CHtml::resolveValue(Object(User), 'rememberMe')
+#3 A:\home\StudyPoint\www\framework\web\widgets\CActiveForm.php(658): CHtml::activeCheckBox(Object(User), 'rememberMe', Array)
+#4 A:\home\StudyPoint\www\protected\views\user\register.php(21): CActiveForm->checkBox(Object(User), 'rememberMe')
+#5 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require('A:\home\StudyPo...')
+#6 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('A:\home\StudyPo...', Array, true)
+#7 A:\home\StudyPoint\www\framework\web\CController.php(870): CBaseController->renderFile('A:\home\StudyPo...', Array, true)
+#8 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('register', Array, true)
+#9 A:\home\StudyPoint\www\protected\controllers\UserController.php(116): CController->render('register', Array)
+#10 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#11 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#15 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#16 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php
+---
+2012/02/16 00:12:06 [error] [exception.CException] exception 'CException' with message 'Property "User.rememberMe" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('rememberMe')
+#1 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('rememberMe')
+#2 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(1347): CHtml::resolveValue(Object(User), 'rememberMe')
+#3 A:\home\StudyPoint\www\framework\web\widgets\CActiveForm.php(658): CHtml::activeCheckBox(Object(User), 'rememberMe', Array)
+#4 A:\home\StudyPoint\www\protected\views\user\register.php(21): CActiveForm->checkBox(Object(User), 'rememberMe')
+#5 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require('A:\home\StudyPo...')
+#6 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('A:\home\StudyPo...', Array, true)
+#7 A:\home\StudyPoint\www\framework\web\CController.php(870): CBaseController->renderFile('A:\home\StudyPo...', Array, true)
+#8 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('register', Array, true)
+#9 A:\home\StudyPoint\www\protected\controllers\UserController.php(116): CController->render('register', Array)
+#10 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#11 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#15 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#16 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php
+---
+2012/02/16 00:12:08 [error] [exception.CException] exception 'CException' with message 'Property "User.rememberMe" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('rememberMe')
+#1 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('rememberMe')
+#2 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(1347): CHtml::resolveValue(Object(User), 'rememberMe')
+#3 A:\home\StudyPoint\www\framework\web\widgets\CActiveForm.php(658): CHtml::activeCheckBox(Object(User), 'rememberMe', Array)
+#4 A:\home\StudyPoint\www\protected\views\user\register.php(21): CActiveForm->checkBox(Object(User), 'rememberMe')
+#5 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require('A:\home\StudyPo...')
+#6 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('A:\home\StudyPo...', Array, true)
+#7 A:\home\StudyPoint\www\framework\web\CController.php(870): CBaseController->renderFile('A:\home\StudyPo...', Array, true)
+#8 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('register', Array, true)
+#9 A:\home\StudyPoint\www\protected\controllers\UserController.php(116): CController->render('register', Array)
+#10 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#11 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#15 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#16 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php
+---
+2012/02/16 00:15:08 [error] [php] include(phpCHtml.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (A:\home\StudyPoint\www\framework\YiiBase.php:418)
+Stack trace:
+#0 A:\home\StudyPoint\www\protected\views\user\register.php(13): spl_autoload_call()
+#1 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require()
+#2 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): UserController->renderInternal()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(870): UserController->renderFile()
+#4 A:\home\StudyPoint\www\framework\web\CController.php(783): UserController->renderPartial()
+#5 A:\home\StudyPoint\www\protected\controllers\UserController.php(116): UserController->render()
+#6 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#7 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 A:\home\StudyPoint\www\framework\web\CController.php(287): UserController->runAction()
+#9 A:\home\StudyPoint\www\framework\web\CController.php(266): UserController->runActionWithFilters()
+#10 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): UserController->run()
+#11 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 A:\home\StudyPoint\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/register
+in A:\home\StudyPoint\www\protected\views\user\register.php (13)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (116)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 00:15:09 [error] [php] include(phpCHtml.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (A:\home\StudyPoint\www\framework\YiiBase.php:418)
+Stack trace:
+#0 A:\home\StudyPoint\www\protected\views\user\register.php(13): spl_autoload_call()
+#1 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require()
+#2 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): UserController->renderInternal()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(870): UserController->renderFile()
+#4 A:\home\StudyPoint\www\framework\web\CController.php(783): UserController->renderPartial()
+#5 A:\home\StudyPoint\www\protected\controllers\UserController.php(116): UserController->render()
+#6 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#7 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 A:\home\StudyPoint\www\framework\web\CController.php(287): UserController->runAction()
+#9 A:\home\StudyPoint\www\framework\web\CController.php(266): UserController->runActionWithFilters()
+#10 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): UserController->run()
+#11 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 A:\home\StudyPoint\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/register
+in A:\home\StudyPoint\www\protected\views\user\register.php (13)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (116)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 00:27:20 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM `User` `t` WHERE `t`.`username`=:yp0 LIMIT 1.
+in A:\home\StudyPoint\www\protected\components\UserIdentity.php (22)
+in A:\home\StudyPoint\www\protected\models\LoginForm.php (52)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (39)
+2012/02/16 00:27:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM `User` `t` WHERE `t`.`username`=:yp0 LIMIT 1' in A:\home\StudyPoint\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->query(Object(CDbCriteria))
+#3 A:\home\StudyPoint\www\protected\components\UserIdentity.php(22): CActiveRecord->findByAttributes(Array)
+#4 A:\home\StudyPoint\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#5 A:\home\StudyPoint\www\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#6 A:\home\StudyPoint\www\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 A:\home\StudyPoint\www\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#8 A:\home\StudyPoint\www\protected\controllers\UserController.php(39): CModel->validate()
+#9 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#10 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#14 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#15 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 00:29:53 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM `User` `t` WHERE `t`.`username`=:yp0 LIMIT 1.
+in A:\home\StudyPoint\www\protected\components\UserIdentity.php (22)
+in A:\home\StudyPoint\www\protected\models\LoginForm.php (52)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (39)
+2012/02/16 00:29:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM `User` `t` WHERE `t`.`username`=:yp0 LIMIT 1' in A:\home\StudyPoint\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->query(Object(CDbCriteria))
+#3 A:\home\StudyPoint\www\protected\components\UserIdentity.php(22): CActiveRecord->findByAttributes(Array)
+#4 A:\home\StudyPoint\www\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#5 A:\home\StudyPoint\www\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#6 A:\home\StudyPoint\www\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 A:\home\StudyPoint\www\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#8 A:\home\StudyPoint\www\protected\controllers\UserController.php(39): CModel->validate()
+#9 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#10 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#14 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#15 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 00:41:23 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM `User` `t` WHERE `t`.`username`=:yp0 LIMIT 1.
+in A:\home\StudyPoint\www\protected\components\UserIdentity.php (22)
+in A:\home\StudyPoint\www\protected\models\LoginForm.php (66)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (39)
+2012/02/16 00:41:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (cp1251_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM `User` `t` WHERE `t`.`username`=:yp0 LIMIT 1' in A:\home\StudyPoint\www\framework\db\CDbCommand.php:528
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->query(Object(CDbCriteria))
+#3 A:\home\StudyPoint\www\protected\components\UserIdentity.php(22): CActiveRecord->findByAttributes(Array)
+#4 A:\home\StudyPoint\www\protected\models\LoginForm.php(66): UserIdentity->authenticate()
+#5 A:\home\StudyPoint\www\protected\controllers\UserController.php(39): LoginForm->login()
+#6 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#7 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#11 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#12 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 00:44:10 [error] [php] include(phpCHtml.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (A:\home\StudyPoint\www\framework\YiiBase.php:418)
+Stack trace:
+#0 A:\home\StudyPoint\www\protected\views\user\register.php(13): spl_autoload_call()
+#1 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require()
+#2 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): UserController->renderInternal()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(870): UserController->renderFile()
+#4 A:\home\StudyPoint\www\framework\web\CController.php(783): UserController->renderPartial()
+#5 A:\home\StudyPoint\www\protected\controllers\UserController.php(116): UserController->render()
+#6 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#7 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 A:\home\StudyPoint\www\framework\web\CController.php(287): UserController->runAction()
+#9 A:\home\StudyPoint\www\framework\web\CController.php(266): UserController->runActionWithFilters()
+#10 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): UserController->run()
+#11 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 A:\home\StudyPoint\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/register
+in A:\home\StudyPoint\www\protected\views\user\register.php (13)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (116)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 01:14:22 [error] [exception.CException] exception 'CException' with message 'Property "User.lastLoginTime" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('lastLoginTime')
+#1 A:\home\StudyPoint\www\protected\components\UserIdentity.php(32): CActiveRecord->__get('lastLoginTime')
+#2 A:\home\StudyPoint\www\protected\models\LoginForm.php(66): UserIdentity->authenticate()
+#3 A:\home\StudyPoint\www\protected\controllers\UserController.php(39): LoginForm->login()
+#4 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#5 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#9 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#10 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 01:17:20 [error] [exception.CException] exception 'CException' with message 'Property "User.lastLoginTime" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('lastLoginTime')
+#1 A:\home\StudyPoint\www\protected\components\UserIdentity.php(32): CActiveRecord->__get('lastLoginTime')
+#2 A:\home\StudyPoint\www\protected\models\LoginForm.php(66): UserIdentity->authenticate()
+#3 A:\home\StudyPoint\www\protected\controllers\UserController.php(39): LoginForm->login()
+#4 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#5 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#9 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#10 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 01:19:54 [error] [exception.CException] exception 'CException' with message 'Property "User.lastLoginTime" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('lastLoginTime')
+#1 A:\home\StudyPoint\www\protected\components\UserIdentity.php(32): CActiveRecord->__get('lastLoginTime')
+#2 A:\home\StudyPoint\www\protected\models\LoginForm.php(66): UserIdentity->authenticate()
+#3 A:\home\StudyPoint\www\protected\controllers\UserController.php(39): LoginForm->login()
+#4 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#5 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#9 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#10 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 01:22:50 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (A:\home\StudyPoint\www\framework\web\CHttpSession.php:182)
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\auth\CWebUser.php(228): CWebUser->changeIdentity()
+#1 A:\home\StudyPoint\www\protected\models\LoginForm.php(72): CWebUser->login()
+#2 A:\home\StudyPoint\www\protected\controllers\UserController.php(39): LoginForm->login()
+#3 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#4 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 A:\home\StudyPoint\www\framework\web\CController.php(287): UserController->runAction()
+#6 A:\home\StudyPoint\www\framework\web\CController.php(266): UserController->runActionWithFilters()
+#7 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): UserController->run()
+#8 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 A:\home\StudyPoint\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/login
+in A:\home\StudyPoint\www\protected\models\LoginForm.php (72)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (39)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 01:24:12 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 A:\home\StudyPoint\www\protected\views\layouts\main.php(25): CWebUser->__get('username')
+#2 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require('A:\home\StudyPo...')
+#3 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('A:\home\StudyPo...', Array, true)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(785): CBaseController->renderFile('A:\home\StudyPo...', Array, true)
+#5 A:\home\StudyPoint\www\protected\controllers\SiteController.php(27): CController->render('index')
+#6 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('')
+#11 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#12 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 01:26:39 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 A:\home\StudyPoint\www\protected\views\layouts\main.php(25): CWebUser->__get('username')
+#2 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require('A:\home\StudyPo...')
+#3 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('A:\home\StudyPo...', Array, true)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(785): CBaseController->renderFile('A:\home\StudyPo...', Array, true)
+#5 A:\home\StudyPoint\www\protected\controllers\SiteController.php(27): CController->render('index')
+#6 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('')
+#11 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#12 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php
+HTTP_REFERER=http://studypoint/index.php
+---
+2012/02/16 01:36:29 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "feed".' in A:\home\StudyPoint\www\framework\web\CController.php:879
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('feed', Array, true)
+#1 A:\home\StudyPoint\www\protected\controllers\UserController.php(40): CController->render('feed', Array)
+#2 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#7 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#8 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 01:42:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "feed".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('feed')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('feed')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/feed')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/feed
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 01:52:32 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\protected\components\UserIdentity.php(28): CComponent->__get('_id')
+#1 A:\home\StudyPoint\www\framework\web\auth\CWebUser.php(224): UserIdentity->getId()
+#2 A:\home\StudyPoint\www\protected\models\LoginForm.php(72): CWebUser->login(Object(UserIdentity), 2592000)
+#3 A:\home\StudyPoint\www\protected\controllers\UserController.php(98): LoginForm->login()
+#4 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#5 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('login')
+#9 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#10 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=user/login
+HTTP_REFERER=http://studypoint/index.php?r=user/login
+---
+2012/02/16 02:04:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "courses".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('courses')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('courses')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/courses')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/courses
+HTTP_REFERER=http://studypoint/index.php?r=user/feed
+---
+2012/02/16 02:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "settings".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('settings')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('settings')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/settings')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/settings
+HTTP_REFERER=http://studypoint/index.php?r=user/courses
+---
+2012/02/16 02:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "courses".' in A:\home\StudyPoint\www\framework\web\CController.php:484
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(271): CController->missingAction('courses')
+#1 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('courses')
+#2 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/courses')
+#3 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=user/courses
+HTTP_REFERER=http://studypoint/index.php?r=user/feed
+---
+2012/02/16 02:06:02 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "courses".' in A:\home\StudyPoint\www\framework\web\CController.php:879
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('courses', Array, true)
+#1 A:\home\StudyPoint\www\protected\controllers\UserController.php(128): CController->render('courses', Array)
+#2 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionCourses()
+#3 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('courses')
+#7 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/courses')
+#8 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=user/courses
+HTTP_REFERER=http://studypoint/index.php?r=user/feed
+---
+2012/02/16 02:23:50 [error] [exception.CException] exception 'CException' with message 'Property "User.password2" is not defined.' in A:\home\StudyPoint\www\framework\base\CComponent.php:131
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password2')
+#1 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('password2')
+#2 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(User), 'password2')
+#3 A:\home\StudyPoint\www\framework\web\helpers\CHtml.php(1238): CHtml::activeInputField('password', Object(User), 'password2', Array)
+#4 A:\home\StudyPoint\www\protected\views\user\register.php(9): CHtml::activePasswordField(Object(User), 'password2')
+#5 A:\home\StudyPoint\www\framework\web\CBaseController.php(127): require('A:\home\StudyPo...')
+#6 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('A:\home\StudyPo...', Array, true)
+#7 A:\home\StudyPoint\www\framework\web\CController.php(870): CBaseController->renderFile('A:\home\StudyPo...', Array, true)
+#8 A:\home\StudyPoint\www\framework\web\CController.php(783): CController->renderPartial('register', Array, true)
+#9 A:\home\StudyPoint\www\protected\controllers\UserController.php(72): CController->render('register', Array)
+#10 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#11 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 A:\home\StudyPoint\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 A:\home\StudyPoint\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): CController->run('register')
+#15 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController('user/register')
+#16 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 A:\home\StudyPoint\www\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=user/register
+HTTP_REFERER=http://studypoint/index.php
+---
+2012/02/16 02:25:00 [error] [php] Missing argument 2 for CHtml::activePasswordField(), called in A:\home\StudyPoint\www\protected\views\user\register.php on line 9 and defined (A:\home\StudyPoint\www\framework\web\helpers\CHtml.php:1234)
+Stack trace:
+#0 A:\home\StudyPoint\www\framework\web\CBaseController.php(96): UserController->renderInternal()
+#1 A:\home\StudyPoint\www\framework\web\CController.php(870): UserController->renderFile()
+#2 A:\home\StudyPoint\www\framework\web\CController.php(783): UserController->renderPartial()
+#3 A:\home\StudyPoint\www\protected\controllers\UserController.php(72): UserController->render()
+#4 A:\home\StudyPoint\www\framework\web\actions\CInlineAction.php(50): UserController->actionRegister()
+#5 A:\home\StudyPoint\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 A:\home\StudyPoint\www\framework\web\CController.php(287): UserController->runAction()
+#7 A:\home\StudyPoint\www\framework\web\CController.php(266): UserController->runActionWithFilters()
+#8 A:\home\StudyPoint\www\framework\web\CWebApplication.php(276): UserController->run()
+#9 A:\home\StudyPoint\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 A:\home\StudyPoint\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 A:\home\StudyPoint\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/register
+in A:\home\StudyPoint\www\protected\views\user\register.php (9)
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (72)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:28:48 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:28:48 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:28:51 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:28:51 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:28:52 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:28:52 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:30:51 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:30:51 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:37:26 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:37:26 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:37:32 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:37:32 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:37:35 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:37:35 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:37:42 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:37:42 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:38:54 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:38:54 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:39:25 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:39:25 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:39:39 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:39:39 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:39:57 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:39:57 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:41:10 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:41:10 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:41:27 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:41:27 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:41:48 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:41:48 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:42:24 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:42:24 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:42:40 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:42:40 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:42:54 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:42:54 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:43:02 [warning] [application] Failed to set unsafe attribute "secondPass" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)
+2012/02/16 02:43:02 [warning] [application] Failed to set unsafe attribute "verifyCode" of "User".
+in A:\home\StudyPoint\www\protected\controllers\UserController.php (35)
+in A:\home\StudyPoint\www\index.php (13)

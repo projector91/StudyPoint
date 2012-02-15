@@ -36,7 +36,7 @@ class LoginForm extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-			'rememberMe'=>'Remember me next time',
+			'rememberMe'=>Yii::t('yii','Remember me next time'),
 		);
 	}
 
@@ -50,7 +50,7 @@ class LoginForm extends CFormModel
 		{
 			$this->_identity=new UserIdentity($this->username,$this->password);
 			if(!$this->_identity->authenticate())
-				$this->addError('password','Incorrect username or password.');
+				$this->addError('password',Yii::t('yii','Incorrect username or password.'));
 		}
 	}
 
@@ -63,7 +63,8 @@ class LoginForm extends CFormModel
 		if($this->_identity===null)
 		{
 			$this->_identity=new UserIdentity($this->username,$this->password);
-			$this->_identity->authenticate();
+			if(!$this->_identity->authenticate())
+				$this->addError('password',Yii::t('yii','Incorrect username or password.'));
 		}
 		if($this->_identity->errorCode===UserIdentity::ERROR_NONE)
 		{
@@ -73,5 +74,14 @@ class LoginForm extends CFormModel
 		}
 		else
 			return false;
+	}
+	
+	public function validate()
+	{		
+		if(!preg_match("/[a-zA-Z]|\d/", $this->attributes['username']) || !preg_match("/[a-zA-Z]|\d/", $this->attributes['username'])) {
+			$this->addError('password',Yii::t('yii','You can use latin characters or digits only.'));
+			return false;
+		}
+		return true;
 	}
 }
